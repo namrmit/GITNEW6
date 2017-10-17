@@ -1,0 +1,210 @@
+; Packaging information for rmit
+name = "RMIT University Vietnam"
+description = ""
+exclusive = "1"
+core = "7.x"
+; ----------
+; Dependencies
+; ----------
+; Administration
+dependencies[] = admin_menu
+dependencies[] = fpa
+; Chaos tool suite
+dependencies[] = ctools
+dependencies[] = page_manager
+; Clientside Validation
+dependencies[] = clientside_validation
+dependencies[] = clientside_validation_form
+dependencies[] = clientside_validation_webform
+; Content
+dependencies[] = node_revision_delete
+; Core
+dependencies[] = block
+dependencies[] = book
+dependencies[] = comment
+dependencies[] = contextual
+dependencies[] = dblog
+dependencies[] = field
+dependencies[] = field_sql_storage
+dependencies[] = field_ui
+dependencies[] = file
+dependencies[] = filter
+dependencies[] = image
+dependencies[] = list
+dependencies[] = locale
+dependencies[] = menu
+dependencies[] = node
+dependencies[] = number
+dependencies[] = options
+dependencies[] = overlay
+dependencies[] = path
+dependencies[] = php
+dependencies[] = rdf
+dependencies[] = syslog
+dependencies[] = system
+dependencies[] = taxonomy
+dependencies[] = text
+dependencies[] = tracker
+dependencies[] = translation
+dependencies[] = trigger
+dependencies[] = update
+dependencies[] = user
+; Date/Time
+dependencies[] = date
+dependencies[] = date_all_day
+dependencies[] = date_api
+dependencies[] = date_popup
+dependencies[] = date_views
+; Development
+dependencies[] = devel
+dependencies[] = profiler_builder
+; Fields
+dependencies[] = email
+dependencies[] = entityreference
+dependencies[] = filefield_paths
+dependencies[] = link
+dependencies[] = viewfield
+; Input filters
+dependencies[] = pathologic
+dependencies[] = wysiwyg_filter
+; Lightweight Directory Access Protocol
+dependencies[] = ldap_authentication
+dependencies[] = ldap_authorization
+dependencies[] = ldap_profile
+dependencies[] = ldap_servers
+; Media
+dependencies[] = video_embed_field
+; Multilingual - Internationalization
+dependencies[] = i18n
+dependencies[] = i18n_block
+dependencies[] = i18n_field
+dependencies[] = i18n_menu
+dependencies[] = i18n_node
+dependencies[] = i18n_path
+dependencies[] = i18n_redirect
+dependencies[] = i18n_select
+dependencies[] = i18n_string
+dependencies[] = i18n_taxonomy
+dependencies[] = i18n_translation
+dependencies[] = i18n_variable
+dependencies[] = languageicons
+; Other
+dependencies[] = backup_migrate
+dependencies[] = boxes
+dependencies[] = colorbox
+dependencies[] = diff
+dependencies[] = disqus
+dependencies[] = entity
+dependencies[] = entity_token
+dependencies[] = field_slideshow
+dependencies[] = insert
+dependencies[] = invisimail
+dependencies[] = libraries
+dependencies[] = linkit
+dependencies[] = login_destination
+dependencies[] = mail_edit
+dependencies[] = menu_block
+dependencies[] = menu_breadcrumb
+dependencies[] = menu_position
+dependencies[] = module_filter
+dependencies[] = newrelic_watcher
+dependencies[] = override_node_options
+dependencies[] = pathauto
+dependencies[] = pathauto_persist
+dependencies[] = realname
+dependencies[] = redirect
+dependencies[] = rmitsearch
+dependencies[] = scheduler
+dependencies[] = securelogin
+dependencies[] = site_map
+dependencies[] = strongarm
+dependencies[] = token
+dependencies[] = transliteration
+; Panels
+dependencies[] = panels
+; Path management
+dependencies[] = globalredirect
+; People
+dependencies[] = noreqnewpass
+; Performance and scalability
+dependencies[] = entitycache
+; Printer, email and PDF versions
+dependencies[] = print
+dependencies[] = print_mail
+; RMIT
+dependencies[] = rmitextra
+; Rules
+dependencies[] = rules
+dependencies[] = rules_admin
+; SEO
+dependencies[] = metatag
+dependencies[] = metatag_opengraph
+; Spam control
+dependencies[] = captcha
+dependencies[] = image_captcha
+dependencies[] = recaptcha
+; Statistics
+dependencies[] = googleanalytics
+; Taxonomy
+dependencies[] = taxonomy_manager
+; User interface
+dependencies[] = extlink
+dependencies[] = wysiwyg
+; Variable
+dependencies[] = variable
+dependencies[] = variable_admin
+dependencies[] = variable_realm
+dependencies[] = variable_store
+dependencies[] = variable_views
+; Views
+dependencies[] = views
+dependencies[] = views_php
+dependencies[] = views_rss
+dependencies[] = views_rss_core
+dependencies[] = views_rss_dc
+;dependencies[] = views_rss_media
+dependencies[] = views_slideshow
+dependencies[] = views_slideshow_cycle
+dependencies[] = views_ui
+; Webform
+dependencies[] = webform
+dependencies[] = webform_share
+; Workbench
+dependencies[] = scheduler_workbench
+dependencies[] = workbench
+dependencies[] = workbench_access
+dependencies[] = workbench_moderation
+; XML sitemap
+dependencies[] = xmlsitemap
+dependencies[] = xmlsitemap_engines
+dependencies[] = xmlsitemap_i18n
+dependencies[] = xmlsitemap_node
+; colorbox
+dependencies[] = colorbox_node
+; Features
+dependencies[] = features
+dependencies[] = rmit_ads
+dependencies[] = rmit_alumjob
+dependencies[] = rmit_basic
+dependencies[] = rmit_boxes
+dependencies[] = rmit_campus
+dependencies[] = rmit_club
+dependencies[] = rmit_company
+dependencies[] = rmit_document
+dependencies[] = rmit_entities
+dependencies[] = rmit_events
+dependencies[] = rmit_help
+dependencies[] = rmit_homepage
+dependencies[] = rmit_jobs
+dependencies[] = rmit_media_release
+dependencies[] = rmit_news
+dependencies[] = rmit_permission
+dependencies[] = rmit_profile
+dependencies[] = rmit_program
+dependencies[] = rmit_related_content
+dependencies[] = rmit_showcase
+dependencies[] = rmit_tf
+dependencies[] = rmit_theme
+dependencies[] = rmit_vocabulary
+dependencies[] = rmit_webform
+
